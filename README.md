@@ -55,6 +55,8 @@ Then have fun!.
 
 ## Some results
 
+<img src="./images/results/pencil_result1.jpg" width="350"/>
+
  ![image](https://raw.githubusercontent.com/Ldpe2G/Pencil-Drawing-Scala/master/images/results/pencil_result1.jpg)
 
  ![image](https://raw.githubusercontent.com/Ldpe2G/Pencil-Drawing-Scala/master/images/results/pencil_result2.jpg)
