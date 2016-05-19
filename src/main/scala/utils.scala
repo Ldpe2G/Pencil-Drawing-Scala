@@ -15,7 +15,9 @@ import breeze.numerics._
 import scala.io.Source
 
 
-
+/**
+ * @author Depeng Liang
+ */
 object Utils {
   
   case class Configs(
