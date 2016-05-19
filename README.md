@@ -57,7 +57,7 @@ Then have fun!.
 
 <img src="./images/results/pencil_result1.jpg" width="350"/>
 
-<img src="./images/results/pencil_result2.jpg" width="350"/>
+<img src="./images/results/pencil_result2.jpg" width="600"/>
 
-<img src="./images/results/pencil_result.jpg" width="350"/>
+<img src="./images/results/pencil_result.jpg" width="600"/>
 
