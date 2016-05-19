@@ -1,6 +1,5 @@
 # Pencil-Drawing-Scala
-Implementation of paper "http://www.cse.cuhk.edu.hk/leojia/projects/pencilsketch/npar12_pencil.pdf"[1] 
-in Scala (a little Python)
+Implementation of paper "Combining Sketch and Tone for Pencil Drawing Production"[1] in Scala (a little Python)
 
 based on the Matlab version: https://github.com/fumin/pencil
 
