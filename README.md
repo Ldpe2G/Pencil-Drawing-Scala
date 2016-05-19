@@ -3,6 +3,8 @@ Implementation of paper "Combining Sketch and Tone for Pencil Drawing Production
 
 based on the Matlab version: https://github.com/fumin/pencil
 
+found another project with better performance: https://github.com/candycat1992/PencilDrawing
+
 May be 10x ~100x slower than the matlab code, depends on the input image size.
 
 The bottleneck is in the python part, needs to solve that in the fufure.
@@ -50,3 +52,11 @@ IS_SHOW_STEP=1
 ```
 
 Then have fun!.
+
+## Some results
+
+ ![image](https://raw.githubusercontent.com/Ldpe2G/Pencil-Drawing-Scala/master/images/results/pencil_result1.jpg)
+
+ ![image](https://raw.githubusercontent.com/Ldpe2G/Pencil-Drawing-Scala/master/images/results/pencil_result2.jpg)
+
+ ![image](https://raw.githubusercontent.com/Ldpe2G/Pencil-Drawing-Scala/master/images/results/pencil_result.jpg)
