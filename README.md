@@ -52,11 +52,16 @@ Then have fun!.
 
 ## Some results
 
+<img src="./images/img/f.png" width="350"/>
 <img src="./images/results/pencil_result1.jpg" width="350"/>
 
+
+<img src="./images/img/flower.png" width="600"/>
 <img src="./images/results/pencil_result2.jpg" width="600"/>
 
+<img src="./images/img/golden_gate.jpg" width="600"/>
 <img src="./images/results/pencil_result.jpg" width="600"/>
+
 
 ## Reference
 [1] http://lxu.me/mypapers/NPAR12_PENCIL.pdf
