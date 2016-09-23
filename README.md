@@ -12,25 +12,9 @@ Another Matlab implementation with better performance: https://github.com/candyc
 Tested on Ubuntu 14.04
 
 * sbt 0.13
-* opencv 3.0
 * SciPy
 
-You should build opencv 3.0 from source and remenber to build the jar file:
-http://docs.opencv.org/2.4/doc/tutorials/introduction/desktop_java/java_dev_intro.html
-
 ## Running
-
-After compiling the project, one thing left is to modify  following lines in the run_script.sh script :
-
-```bash
-
-# better to copy your opencv-300.jar to replace this one
-OPENCV_JAR_FILE=$ROOT/lib/opencv-300.jar
-
-# needs to set to your opencv-3.0 build lib path 
-LIBRARY_PATH=$HOME/opencv3.0/opencv-3.0.0/build/lib/
-
-```
 
 change the input image, output name and so on:
 
