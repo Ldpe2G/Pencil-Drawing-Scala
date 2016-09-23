@@ -1,12 +1,8 @@
 ROOT=$(cd "$(dirname $0)"; pwd)
 
-# better to copy your opencv-300.jar to replace this one
-OPENCV_JAR_FILE=$ROOT/lib/opencv-300.jar
-
-# needs to set to your opencv-3.0 build lib path 
-LIBRARY_PATH=$HOME/opencv3.0/opencv-3.0.0/build/lib/
-
-CLASS_PATH=$OPENCV_JAR_FILE:$ROOT/target/scala-2.11/classes/:$HOME/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar:\
+CLASS_PATH=$ROOT/target/scala-2.11/classes/:\
+$HOME/.ivy2/cache/nu.pattern/opencv/jars/opencv-2.4.9-7.jar:\
+$HOME/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar:\
 $HOME/.ivy2/cache/org.scalanlp/breeze_2.11/jars/breeze_2.11-0.12.jar:\
 $HOME/.ivy2/cache/org.scalanlp/breeze-macros_2.11/jars/breeze-macros_2.11-0.12.jar:\
 $HOME/.ivy2/cache/com.github.fommil.netlib/core/jars/core-1.1.2.jar:\

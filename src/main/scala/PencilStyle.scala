@@ -7,6 +7,7 @@ import java.io.BufferedReader
  * @author Depeng Liang
  */
 object PencilStyle {
+  nu.pattern.OpenCV.loadShared()
   
   def main(args: Array[String]): Unit = {
     System.loadLibrary(Core.NATIVE_LIBRARY_NAME)

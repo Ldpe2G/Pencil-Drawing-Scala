@@ -1,6 +1,5 @@
 import org.opencv.core.Mat
 import org.opencv.imgproc.Imgproc
-import org.opencv.imgcodecs.Imgcodecs
 import org.opencv.core.CvType
 import org.opencv.core.Point
 import org.opencv.core.Core
@@ -13,6 +12,7 @@ import breeze.linalg._
 import breeze.math._
 import breeze.numerics._
 import scala.io.Source
+import org.opencv.highgui.Highgui
 
 
 /**
@@ -32,11 +32,11 @@ object Utils {
   )
   
   def imgRead(imgPath: String): Mat = {
-    Imgcodecs.imread(imgPath, Imgcodecs.IMREAD_COLOR)
+    Highgui.imread(imgPath, 1)
   }
   
   def imgWrite(img: Mat, path: String): Unit = {
-    Imgcodecs.imwrite(path, img)
+    Highgui.imwrite(path, img)
   }
   
   // compute the image gradient

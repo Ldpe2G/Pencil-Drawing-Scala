@@ -1,6 +1,6 @@
 lazy val commonSettings = Seq(
   version := "0.1.0",
-  scalaVersion := "2.11.7"
+  scalaVersion := "2.11.8"
 )
 
 lazy val root = (project in file(".")).
@@ -11,12 +11,11 @@ lazy val root = (project in file(".")).
 
 
 libraryDependencies  ++= Seq(
-  "org.scalanlp" %% "breeze" % "0.12",
+  "org.scalanlp" %% "breeze" % "latest.integration",
   "org.scalanlp" %% "breeze-natives" % "0.12",
-  "org.scalanlp" %% "breeze-viz" % "0.12"
+  "org.scalanlp" %% "breeze-viz" % "0.12",
+  "nu.pattern" % "opencv" % "2.4.9-7"
 )
 
-resolvers ++= Seq(
-  "Sonatype Snapshots" at "https://oss.sonatype.org/content/repositories/snapshots/",
-  "Sonatype Releases" at "https://oss.sonatype.org/content/repositories/releases/"
-)
+
+resolvers += "Sonatype Snapshots" at "https://oss.sonatype.org/content/repositories/snapshots/"
