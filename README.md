@@ -49,4 +49,5 @@ Then have fun!.
 
 ## Reference
 [1] http://lxu.me/mypapers/NPAR12_PENCIL.pdf
+
 [2] http://www.cse.cuhk.edu.hk/leojia/projects/pencilsketch/npar12_pencil.pdf
