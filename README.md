@@ -46,6 +46,8 @@ Then have fun!.
 <img src="./images/img/golden_gate.jpg" width="600"/>
 <img src="./images/results/pencil_result.jpg" width="600"/>
 
+## License
+MIT
 
 ## Reference
 [1] http://lxu.me/mypapers/NPAR12_PENCIL.pdf
