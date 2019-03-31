@@ -1,3 +1,6 @@
+[![996.ICU](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu/#/en_US)
+
+
 # Pencil-Drawing-Scala
 Implementation of paper "Combining Sketch and Tone for Pencil Drawing Production"[1,2] in Scala (a little Python) based on the Matlab version: https://github.com/fumin/pencil
 
